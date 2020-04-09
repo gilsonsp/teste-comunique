@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;    
+    }
+    
+    @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+/************************ INÍCIO SECTION BANNER ******************************/
+
+.navbar-expand-lg .navbar-nav {
+  margin-left: 180px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: 'Lato-regular', sans-serif;
+}
+
+#banner.bg {
+ background-image: url(../img/imagem1.png);     
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ min-height: 350px !important;
+ background-color:#6d6d6d;
+ margin-right: 100px;
+}
+
+.texto-svg {
+    margin-top:100px;
+    margin-left: 85px;
+    width: 400px;
+    }
+
+
+.texto-banner {
+    margin-top:100px;
+    margin-left: 85px;
+    min-width: 50px;
+    border: 1px solid blue;
+    font-size: 2.0em;
+    font-family: 'Lato-regular', sans-serif; 
+    color:#666666;
+}
+/************************ FIM SECTION BANNER ******************************/
+
+
+
+/************************ INÍCIO SECTION CARROSSEUL RECOMENDAÇÕES *****************/
+
+#recomendacoes  {
+    
+    background-color: #918FB3;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+#recomendacoes .titulo-remomendacoes {
+  color: #ffffff;
+  font-family: 'Nunito-bold', sans-serif;
+  font-size: 36px;
+  padding: 20px 0px;
+}
+
+#anterior, #proximo{
+position: absolute;
+top: 90px;
+opacity:50%;
+background-color:#707070;
+border:1px solid #707070!important;
+}
+
+#anterior{
+  left: -75px;
+}
+
+#proximo{
+  right: -75px;
+}
+
+ .card-carousel {
+  background-color: transparent !important;
+  border: solid 2px #ffffff!important;
+ }
+
+ .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0rem;
+}
+
+.number-titulo{
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+}
+
+.number-card{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+  border-right: 1px solid #ffffff;
+}
+  .titulo-card {
+  font-size: 22px!important;
+  font-family: 'Lato-bold', sans-serif;
+  color: #ffffff;
+  padding: 10px !important;
+  }
+
+   .card-text{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px !important;
+   }
+ 
+/************************ FIM SECTION RECOMENDAÇÕES ******************************/
+
+
+
+
+ 
+/************************ INÍCIO SECTION FEEDBACK ******************************/
+
+#feedback{
+  margin-bottom: 100px;
+}
+
+.bg-feedback{
+        background-image: url(../img/feedback.png);     
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 350px !important;
+        position: relative;
+        right: 115px;
+        top: -40px;
+        z-index: -1;
+}
+
+.texto-feedback p{
+    text-align: right;
+    padding-top: 50px;
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 20px;
+    }
+
+    .texto-feedback strong{
+        color:#666666;
+        font-family: 'Nunito-bold', sans-serif;
+        font-size: 30px;
+    }
+
+.form-feedback  {
+    
+        float: right;
+        position: relative;
+        bottom: 45px;
+        right: -800;
+}
+
+.form-feedback  input[type=email] {
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 10px;
+    font-size: 22px;
+    color: #666666;
+    width: 400px;
+    height: 67px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 1px #B7B7B7;
+    font-family: 'Lato-italic', sans-serif;
+    }
+
+.form-feedback button[type=submit] {
+    width: 200px;
+    height: 67px;
+    border: solid 1px #B7B7B7;
+    color:#ffffff;
+    font-family: 'Lato-black', sans-serif;
+    background-color: #9D65A4;
+}
+
+/************************ INÍCIO SECTION FEEDBACK ******************************/
+
+
+
+/************************ INÍCIO SECTION EQUIPE ******************************/
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+    background-color: #E9F1F2;
+    border: 1px solid #B7B7B7;
+    }
+
+.titulo-equipe{
+  color: #918FB3;
+  font-family: 'Nunito-bold', sans-serif;
+  
+}
+
+.card p {
+  color:#666666;
+  font-family: 'Nunito-italic', sans-serif;
+}
+
+.card strong {
+  color:#666666;
+  font-family: 'Nunito-bold', sans-serif;
+}
+
+/************************ FIM SECTION EQUIPE ******************************/
+
+
+
+/************************ INÍCIO SECTION TESTE ******************************/
+
+#teste{
+  margin-bottom: 40px;
+}
+.texto-teste{
+    margin-top: 100px;
+}
+
+.texto-teste strong{
+    color: #666666;
+    font-family: 'Nunito-bold', sans-serif;
+    font-size: 32px;
+    }
+
+    .texto-teste p{
+      color: #666666;
+      font-family: 'Lato-regular', sans-serif;
+      font-size: 25px;
+      line-height: 38.4px;
+      }
+      
+.form-teste{
+    margin-top: 100px;
+    }
+
+.form-teste input[id=nome] {
+    padding: 9px 10px 9px 10px;
+    font-size: 22px;
+    height: 56px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: solid 1px #B7B7B7;
+    font-family: 'Lato-italic', sans-serif;
+    
+    
+    }
+
+.form-teste input[id=sobrenome] {
+    padding: 9px 10px 9px 10px;
+    font-size: 22px;
+    height: 51px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: solid 1px #B7B7B7;
+    font-family: 'Lato-italic', sans-serif;
+    }
+
+#teste .form-teste textarea {
+    padding: 9px 10px 9px 10px;
+    font-size: 22px;
+    height: 200px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: solid 1px #B7B7B7;
+    font-family: 'Lato-italic', sans-serif;
+    margin-top: 15px;
+    
+}
+
+#teste .form-teste button[type=submit] {
+    padding: 9px 10px 9px 10px;
+    font-size: 22px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border-bottom: solid 5px #7d5482;
+    color: #ffffff;
+    font-family: 'Lato-black', sans-serif;
+    width: 250px;
+    height: 63px;
+    background-color: #724b77;
+}
+
+::-webkit-input-placeholder{ 
+  opacity: 50%!important;
+  color: #666666;
+}
+::-moz-placeholder{ 
+  opacity: 50%!important;
+  color: #666666;
+}
+
+:-moz-placeholder{ 
+  opacity: 50%!important;
+  color: #666666;
+}
+
+:-ms-input-placeholder { 
+  opacity: 50%!important;
+  color: #666666;
+}
+/************************ FIM SECTION TESTE ******************************/
+
+
+
+/************************ INÍCIO FOOTER ******************************/
+
+
+footer{
+    background-color: #685C82;
+    height:auto;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.footer-texto p, strong, i{
+    color: #ffffff;
+}
+
+.footer-texto p{
+    font-family: 'Lato-regular', sans-serif;
+    line-height: 38.4px;
+    font-size: 20px;
+}
+
+
+.footer-texto strong{
+    color: #ffffff;
+    font-family: 'Nunito-bold', sans-serif;
+    font-size: 30px;
+    
+}
+
+.redes-socias ul{
+ list-style: none;
+ margin-left: 100px;
+ flex-direction: row;
+ display: flex;
+ }
+
+.redes-socias ul li{
+    text-decoration: none;
+    padding-right: 20px;
+   }
+
+   .redes-socias a{
+    border: 0;
+   }
+
+   /************************ FIM FOOTER ******************************/
+
+
+   /************************ MEDIA QUERIES ******************************/
+ 
+    @media (max-width: 1199px){
+      .navbar-expand-lg .navbar-nav .nav-link {
+          font-size: 16px !important;
+          /* padding-right: .5rem !important; */
+          padding-left: 0rem !important;
+          
+      }
+          }
+
+    @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.0rem;
+    font-size: 20px;
+    color: #666666;
+    }
+    }
+
+   @media (max-width:768px){
+    .texto-svg {
+      margin: 50px 50px 0px 0px;
+      background-color: #e9f1f2;
+      padding:10px;
+      opacity: 100%;
+      width: 330px;
+  } 	
+}
+
+@media (max-width: 576px){
+
+  .navbar-brand {
+   width: 100px;
+  }
+
+  .navbar-brand img {
+    width: 215px;
+   }
+
+  .bg-feedback{
+    display: none;
+  }
+
+  .form-feedback input[type=email] {
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 10px;
+    font-size: 17px;
+    width: 340px;
+    height: 67px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: solid 1px #B7B7B7;
+    font-family: 'Lato-italic', sans-serif;
+    opacity: 58%;
+}
+
+.form-feedback button[type=submit] {
+  width: 156px;
+  height: 67px;
+  border: solid 1px #B7B7B7;
+  color: #ffffff;
+  font-family: 'Lato-black', sans-serif;
+  background-color: #9D65A4;
+}
+
+.redes-socias ul{
+
+justify-content: center;
+}
+
+}
+
+@media (min-width: 500px){
+  .texto-svg svg{
+    margin: auto;
+  }
+
+  }
+
+@media (max-width: 320px){
+  .logo img{
+width: 80px !important;
+  }
+}
